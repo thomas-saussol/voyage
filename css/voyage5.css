@@ -1,0 +1,196 @@
+<<<<<<< HEAD
+
+h1{
+display:flex;
+flex-direction: row;
+justify-content: center;
+color: white;
+
+}
+
+/* MENU HEADER */
+
+a
+{
+text-decoration: none;
+width: 100%;
+}
+
+.nav1 {
+  width: 100%;
+  font-family: monospace;
+  background-color: darkorange;
+}
+
+.ul1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row; 
+  list-style: none;
+  margin: 0px 30%;
+  text-align: center;
+}
+
+.li1 {
+  color: #fff;
+  background: darkorange;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  width: 200px;
+}
+
+.li1 .a1 {
+color: #fff;
+}
+
+.li1:hover {
+  background: red;
+  cursor: pointer;
+}
+
+.ul1 .li1 .ul1 {
+  background: orange;
+  visibility: hidden;
+opacity: 0;
+min-width: 5rem;
+  position: absolute;
+transition: all 0.5s ease;
+margin-top: 1rem;
+  left: 0;
+display: none;
+}
+
+.ul1 .li1:hover > .ul1,
+.li1 .ul1:hover {
+visibility: visible;
+opacity: 1;
+display: block;
+}
+
+.ul1 .li1 .ul1 .li1 {
+  clear: both;
+width: 100%;
+}
+
+body{
+
+
+  background-image:url(../image/toto.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+
+.pagederoulantethomas{
+background-color:rgba(255,255,255, 0.5) ;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+
+
+}
+
+table{
+
+border: 5px solid black;
+border-radius: 3px;
+width: 50%;
+color: black;
+
+
+}
+
+section img{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: auto;
+height: 150px;
+}
+
+.aligntxtimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.faunethomas1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+=======
+
+h1{
+display:flex;
+flex-direction: row;
+justify-content: center;
+color: white;
+
+}
+
+
+body{
+
+
+  background-image:url(../image/toto.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+
+.pagederoulantethomas{
+background-color:rgba(255,255,255, 0.5) ;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+
+
+}
+
+table{
+
+border: 5px solid black;
+border-radius: 3px;
+width: 50%;
+color: black;
+
+
+}
+
+section img{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: auto;
+height: 150px;
+}
+
+.aligntxtimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.faunethomas1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+>>>>>>> 7af5ffdfea9f86fb47c3655ef55d1a531a6e93e5

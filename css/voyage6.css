@@ -1,0 +1,177 @@
+body{
+  background-image: url(../image/paysageréunionthomas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/* MENU HEADER */
+
+a
+{
+text-decoration: none;
+width: 100%;
+}
+
+.nav1 {
+  width: 100%;
+  font-family: monospace;
+  background-color: darkorange;
+}
+
+.ul1 {
+  width: 50%;
+  display: flex;
+  flex-direction: row; 
+  list-style: none;
+  margin: 0px 30%;
+  text-align: center;
+}
+
+.li1 {
+  color: #fff;
+  background: darkorange;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  width: 200px;
+}
+
+.li1 .a1 {
+color: #fff;
+}
+
+.li1:hover {
+  background: red;
+  cursor: pointer;
+}
+
+.ul1 .li1 .ul1 {
+  background: orange;
+  visibility: hidden;
+opacity: 0;
+min-width: 5rem;
+  position: absolute;
+transition: all 0.5s ease;
+margin-top: 1rem;
+  left: 0;
+display: none;
+}
+
+.ul1 .li1:hover > .ul1,
+.li1 .ul1:hover {
+visibility: visible;
+opacity: 1;
+display: block;
+}
+
+.ul1 .li1 .ul1 .li1 {
+  clear: both;
+width: 100%;
+}
+
+
+h1{
+display: flex;
+color: white;
+justify-content: center;
+}
+
+#titreréunion{
+  animation:apparition1 3s;
+}
+
+@keyframes apparition1 {
+  0%{opacity: 0}
+  10%{opacity: 0}
+  20%{opacity: 0}
+  30%{opacity: 1}
+  40%{transform: translateX(0);}
+  50%{transform: translateX(12px);}
+  60%{transform: translateX(-20px);}
+  65%{transform: translateX(15px);}
+  70%{transform: translateX(-40px);}
+  85%{transform: translateX(67px);}
+  90%{transform: translateX(-100px);}
+
+}
+
+
+#blockreunion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 97vw;
+  margin: auto;
+}
+
+#gauche{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+
+}
+
+.feuille1réuniongauche{
+width: 100%;
+margin-top: 24px;
+background-color: rgba(255, 0, 0, 0.5);
+text-align: center;
+border-radius: 30px;
+box-shadow: 10px 5px 5px lightgrey;
+
+}
+
+#centre{
+  display: flex;
+  width: 40vw;
+
+
+}
+
+.imgreuniontoto{
+height: 30vh;
+width: auto;
+transition: all 2s;
+
+
+}
+
+.imgreuniontoto:hover{
+transform: rotate3d(-54, 89, 2, 360deg) scale(1.6) scale(1);
+
+}
+
+.feuille1reunioncentre{
+width: 100%;
+margin-top: 24px;
+background-color: rgba(255, 0, 0, 0.5);
+text-align: center;
+border-radius: 30px;
+box-shadow: 10px 5px 5px lightgrey;
+
+
+}
+
+#droite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+}
+
+.feuille1réuniondroite{
+width: 100%;
+margin-top: 24px;
+background-color: rgba(255, 0, 0, 0.5);
+text-align: center;
+border-radius: 30px;
+box-shadow: 10px 5px 5px lightgrey;
+
+
+}

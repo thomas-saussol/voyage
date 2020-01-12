@@ -1,0 +1,432 @@
+body{
+    margin : 0px;
+    background-image: linear-gradient(rgb(172, 223, 246),rgb(95, 134, 241));
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(39, 17, 17);
+}
+
+/* MENU HEADER */
+
+a
+{
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav1 {
+    width: 100%;
+    font-family: monospace;
+    background-color: darkorange;
+}
+
+.ul1 {
+    width: 50%;
+    display: flex;
+    flex-direction: row; 
+    list-style: none;
+    margin: 0px 30%;
+    text-align: center;
+}
+
+.li1 {
+    color: #fff;
+    background: darkorange;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    width: 200px;
+}
+  
+.li1 .a1 {
+  color: #fff;
+}
+
+.li1:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.ul1 .li1 .ul1 {
+    background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+.ul1 .li1:hover > .ul1,
+.li1 .ul1:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.ul1 .li1 .ul1 .li1 {
+    clear: both;
+  width: 100%;
+}
+
+
+main {
+    width: 100%;
+    height: 90%;
+    margin: 100px auto 0px;
+
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(133, 112, 112);
+}
+
+.section1{
+    width: 60%;
+    height: 200px;
+    margin: 10px auto;
+    border:2px black solid;
+    background-color: rgba(251, 247, 27, 0.479);
+}
+
+.cut1{
+    width: 800px;
+    height: 530px;
+    border:2px black solid;
+    background-color: rgba(251, 72, 27, 0.705);
+}
+
+.section2{
+    width: 50%;
+    height: 700px;
+    margin:10px auto 200px;
+    border:2px black solid;
+    border-radius:0em 0em 3em 3em;
+    background-color: rgba(27, 98, 251, 0.781);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section2bis{
+    width: 60%;
+    height: 900px;
+    margin:10px auto 100px;
+    border:2px black solid;
+    background-color: rgba(81, 255, 162, 0.705);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section2bis1{
+    width: 60%;
+    height: 900px;
+    margin:10px auto 100px;
+    padding-top:50px;
+    border-radius:0em 0em 3em 3em;
+    border:2px black solid;
+    background-color: rgba(27, 251, 251, 0.705);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div1{
+    width: 200px;
+    height: 188px;   
+    border-radius: 2em;
+}
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1,h2{
+    text-decoration: underline black solid;
+}
+
+section{
+    border-radius: 3em;
+}
+
+.ali{
+    padding-top:70px;
+    line-height: 80px;
+    font-size: 190%;
+    text-align: center;
+}
+
+.ali2{
+    text-align: center;
+}
+
+.ptitre{
+    text-align: center;
+    font-size: 500%;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.p1{
+    text-align: center;
+    font-size: 170%;
+    margin : 80px 10px;
+    font-weight: bold;
+}
+
+.p2{
+    text-align: center;
+    font-size: 150%;
+    margin : 80px 10px;
+    font-weight: bold;
+}
+
+.p2bis{
+    text-align: center;
+    font-size: 140%;
+    margin : 10px 10px;
+    font-weight: bold;
+}
+
+.p3{
+    text-align: center;
+    font-size: 160%;
+    margin :10px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+.cut4{
+    width: 400px;
+    height: 380px;
+    border:2px black solid;
+    background-color: rgba(255, 172, 152, 0.705);
+    border-radius: 2em;
+}
+
+.cut4bis{
+    width: 500px;
+    height: 380px;
+    margin-top: 30px;
+    border:2px black solid;
+    background-color: rgba(255, 115, 102, 0.705);
+}
+
+/* FORMULAIRE INSCRIPTION */
+.section4 {
+    width: 50%;
+    height: 396px;
+    margin: 0px 25% 0px;
+    background-color: rgba(15, 135, 172, 0.774);
+    border: 2px black solid;
+    border-radius: 4em 4em 0em 0em;
+}
+
+.inter{
+    width: 30%;
+    height: 300px;
+    margin: 100px auto 0px;
+    text-align: center;
+}
+
+.p5{
+    text-align: center;
+    margin: 0px 15px;
+    font-size: 130%;
+    line-height: 26px;
+}
+
+.p6{
+    text-align: center;
+    font-weight : bold;
+    font-size: 200%;
+}
+
+
+
+
+/* SLIDE */
+
+#slideshow {
+	position: relative;
+
+	height: 568px;
+	padding: 15px;
+	margin: 0 auto 2em;
+	border: 1px solid #ddd;
+	background: rgb(226, 19, 19);
+	/* CSS3 effects */
+	background-color: rgba(0, 174, 255, 0.671);
+	border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+    border-radius: 2em;
+}
+ 
+/* avanced box-shadow */
+#slideshow:before,
+#slideshow:after {
+	position: absolute;
+	bottom:16px;
+	z-index: -10;
+	width: 50%;
+	height: 20px;
+	content: " ";
+	background: rgba(0,0,0,0.1);
+	border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+    
+}
+#slideshow:before {
+	left:0;
+	transform: rotate(-4deg);
+}
+#slideshow:after {
+	right:0;
+	transform: rotate(4deg);
+}
+
+/*dimensions et débordement du conteneur */
+#slideshow .container {
+	position:relative;
+	width: 880px;
+	height: 568px;
+    overflow: hidden;
+    border-radius: 2em;
+}
+	
+/*petit espace gris pour la timeline */
+#slideshow .container:after {
+	position:absolute;
+	bottom: 0; left:0;
+	content: " ";
+	width: 100%;
+	height: 1px;
+	background: #999;
+}
+/* le conteneur des slides */
+#slideshow .slider {
+	position: absolute;
+	left:0; top:0;
+	width: 880px;
+    height: 568px;
+    border-radius: 2em;
+}
+
+/* annulation des marges sur figure */
+#slideshow figure {
+	position:relative;
+	display:inline-block;
+	padding:0; margin:0;
+}
+/* petit effet de vignette sur les images */
+#slideshow figure:after {
+	position: absolute;
+	display:block;
+	content: " ";
+	top:0; left:0;
+	width: 100%; height: 100%;
+	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+}
+
+/*dimensions et débordement du conteneur */
+#slideshow .container {
+	position:relative;
+	width: 880px;
+	height: 568px;
+	overflow: hidden;
+}
+	
+/*petit espace gris pour la timeline */
+#slideshow .container:after {
+	position:absolute;
+	bottom: 0; left:0;
+	content: " ";
+	width: 100%;
+	height: 1px;
+	background: #999;
+}
+/* le conteneur des slides */
+#slideshow .slider {
+	position: absolute;
+	left:0; top:0;
+	width: 880px;
+	height: 568px;
+}
+
+/* annulation des marges sur figure */
+#slideshow figure {
+	position:relative;
+	display:inline-block;
+	padding:0; margin:0;
+}
+/* petit effet de vignette sur les images */
+#slideshow figure:after {
+	position: absolute;
+	display:block;
+	content: " ";
+	top:0; left:0;
+	width: 100%; height: 100%;
+	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+}
+
+/* styles*/
+#slideshow figcaption {
+	position:absolute;
+	left:0; right:0; bottom: 5px;
+	padding: 20px;
+    margin:0;
+	border-top: 1px solid rgb(225,225,225);
+	text-align:center;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	font-family: Georgia, Times, serif;
+	background: #fff;
+	background: rgba(255,255,255,0.7);
+	color: #555;
+	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+}
+
+/* fonction d'animation*/
+@keyframes slider {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 70%		{ left: -200% }
+	75%, 95%		{ left: -300% }
+}
+
+
+#slideshow .slider {
+
+	animation: slider 22s infinite;
+}
+
+
+table{
+    width: 100%;
+    height: 100%;
+    border:1px black solid;
+}
+
+thead,tbody{
+    border:1px black solid;
+    background-color: rgb(15, 135, 172);
+}

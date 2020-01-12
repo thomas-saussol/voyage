@@ -1,0 +1,155 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Wallpoet', cursive;
+
+ 
+} 
+
+
+header {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 100px;
+  background-color: rgb(39, 17, 17);
+}
+
+
+
+
+
+/* MENU HEADER */
+
+.PR a
+{
+  
+font-family: 'Wallpoet', cursive;
+width: 50%;
+}
+
+.PR nav {
+  
+  width: 100%;
+  font-family: 'Wallpoet', cursive;
+  background-image:linear-gradient(to top right, grey, #88c1d0);
+  
+}
+
+.PR ul {
+  width: 50%;
+  display: flex;
+  flex-direction: row; 
+  list-style: none;
+  margin: 0px 30%;
+  text-align: center;
+}
+
+.PR li {
+  color: #fff;
+  background: darkblue;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  width: 200px;
+}
+
+.PR li a {
+color: #fff;
+}
+
+.PR ul li a
+{
+  margin-left: 20%;
+  font-family: 'Wallpoet', cursive;
+}
+
+.PR li:hover {
+  display: flex;
+  flex-direction: column;
+  background-image:linear-gradient(to top right, grey, #88c1d0)
+  cursor: pointer;
+}
+
+.PR ul li ul {
+  background: blue;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 10rem;
+  position: absolute;
+  transition: all 5s ease;
+  margin-top: 29px;
+  left: -71px;
+  display: none;
+  z-index: 1;
+}
+
+.PR ul li:hover > ul,
+li ul:hover {
+
+visibility: visible;
+opacity: 1;
+display: block;
+}
+
+.PR ul li ul li {
+  clear: both;
+width: 100%;
+}
+
+
+
+h1
+{
+  font-family: 'Wallpoet', cursive;
+  margin-top: -70px;
+  text-align: center;
+  font-size: 90px;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count:1;
+  position: relative;
+  color: white;
+
+}
+u
+{
+  color: darkblue;
+}
+
+.gradient2 
+  { 
+    color: white;
+    margin-top: -80px;
+    height: 650px; width: 550px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    background-image:linear-gradient(to top right, grey, #88c1d0);
+    margin-left: 36%;
+    z-index: 1;
+  }
+
+  .g3
+  {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    font-family: 'Wallpoet', cursive;
+    margin: auto;
+    z-index: 1;
+  }
+
+
+
+@keyframes anim
+
+{
+  0%{top:-100px;}
+  100%{top:0px;}
+}
